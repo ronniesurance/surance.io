@@ -1,817 +1,904 @@
 <!DOCTYPE html>
-<!-- ==============================
-    Project:        Metronic "Aitonepage" Frontend Freebie - Responsive HTML Template Based On Twitter Bootstrap 3.3.4
-    Version:        1.0
-    Author:         KeenThemes
-    Primary use:    Corporate, Business Themes.
-    Email:          support@keenthemes.com
-    Follow:         http://www.twitter.com/keenthemes
-    Like:           http://www.facebook.com/keenthemes
-    Website:        http://www.keenthemes.com
-    Premium:        Premium Metronic Admin Theme: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes
-================================== -->
-<html lang="en" class="no-js" dir="rtl">
-    <!-- BEGIN HEAD -->
-    <head>
-        <meta charset="utf-8"/>
-        <title>Metronic "Aitonepage" Frontend Freebie</title>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta content="width=device-width, initial-scale=1" name="viewport"/>
-        <meta content="" name="description"/>
-        <meta content="" name="author"/>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <!-- GLOBAL MANDATORY STYLES -->
-        <link href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
-        <link href="vendor/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css"/>
-        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Cyberman365 - Proactive Cyber Security">
+    <meta name="author" content="Cyberman365"
 
-        <!-- PAGE LEVEL PLUGIN STYLES -->
-        <link href="css/animate.css" rel="stylesheet">
-        <link href="vendor/swiper/css/swiper.min.css" rel="stylesheet" type="text/css"/>
+    <!-- OG Meta Tags to improve the way the post looks when you share the page on Facebook, Twitter, LinkedIn -->
+	<meta property="og:site_name" content="" /> <!-- website name -->
+	<meta property="og:site" content="" /> <!-- website link -->
+	<meta property="og:title" content=""/> <!-- title shown in the actual shared post -->
+	<meta property="og:description" content="" /> <!-- description shown in the actual shared post -->
+	<meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
+	<meta property="og:url" content="" /> <!-- where do you want your post to link to -->
+	<meta name="twitter:card" content="summary_large_image"> <!-- to have large image post format in Twitter -->
 
-        <!-- THEME STYLES -->
-        <link href="css/layout.min.css" rel="stylesheet" type="text/css"/>
+    <!-- Webpage Title -->
+    <title>Cyberman365</title>
 
-        <!-- Favicon -->
-        <link rel="shortcut icon" href="favicon.ico"/>
-    </head>
-    <!-- END HEAD -->
+    <!-- Styles -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/fontawesome-all.min.css" rel="stylesheet">
+    <link href="./css/aos.min.css" rel="stylesheet">
+    <link href="./css/swiper.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
 
-    <!-- BODY -->
-    <body id="body" data-spy="scroll" data-target=".header">
+    <!-- Favicon -->
+    <link rel="icon" href="./assets/images/favicon.ico">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-F3DJFLTPZM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-        <!--========== HEADER ==========-->
-        <header class="header navbar-fixed-top">
-            <!-- Navbar -->
-            <nav class="navbar" role="navigation">
-                <div class="container">
-                    <!-- Brand and toggle get grouped for better mobile display -->
-                    <div class="menu-container js_nav-item">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="toggle-icon"></span>
-                        </button>
+  gtag('config', 'G-F3DJFLTPZM');
+</script>
+<script type="text/javascript">
+    window._chatlio = window._chatlio||[];
+    !function(){ var t=document.getElementById("chatlio-widget-embed");if(t&&window.ChatlioReact&&_chatlio.init)return void _chatlio.init(t,ChatlioReact);for(var e=function(t){return function(){_chatlio.push([t].concat(arguments)) }},i=["configure","identify","track","show","hide","isShown","isOnline", "page", "open", "showOrHide"],a=0;a<i.length;a++)_chatlio[i[a]]||(_chatlio[i[a]]=e(i[a]));var n=document.createElement("script"),c=document.getElementsByTagName("script")[0];n.id="chatlio-widget-embed",n.src="https://w.chatlio.com/w.chatlio-widget.js",n.async=!0,n.setAttribute("data-embed-version","2.3");
+       n.setAttribute('data-widget-id','6a781954-0338-466f-6fbe-830d6ab576da');
+       c.parentNode.insertBefore(n,c);
+    }();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KFWLHT9');</script>
+<!-- End Google Tag Manager -->
+</head>
+<body>
+ <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KFWLHT9"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 
-                        <!-- Logo -->
-                        <div class="logo">
-                            <a class="logo-wrap" href="#body">
-                                <img class="logo-img logo-img-main" src="img/logo.png" alt="Asentus Logo">
-                                <img class="logo-img logo-img-active" src="img/logo-dark.png" alt="Asentus Logo">
+    <!-- Navigation -->
+    <nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-dark" aria-label="Main navigation">
+        <div class="container">
+
+            <!-- Image Logo -->
+            <a class="navbar-brand logo-image" href="index.html?csrid=YkMAw"><img src="./assets/images/red_logo.png" alt=""></a>
+
+            <!-- Text Logo - Use this if you don't have a graphic logo -->
+        <!--<a class="navbar-brand logo-text" href="index.html">Mirko</a>-->
+
+            <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault" >
+                <ul class="navbar-nav ms-auto navbar-nav-scroll">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="?csrid=YkMAw#header">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="?csrid=YkMAw#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="?csrid=YkMAw#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="?csrid=YkMAw#plans">Plans</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false" href="#">Info</a>
+                        
+                        <ul class="dropdown-menu" aria-labelledby="dropdown01">
+                            <li><a class="dropdown-item" href="article.html?csrid=YkMAw">Security Tips</a></li>
+                            <li><div class="dropdown-divider"></div></li>
+                            <li><a class="dropdown-item" href="coverage.html?csrid=YkMAw">Coverage</a></li>
+                            <li><div class="dropdown-divider"></div></li>
+                            <li><a class="dropdown-item" href="privacy.html?csrid=YkMAw">Privacy Policy</a></li>
+                        </ul>
+                    </li>
+					<li>
+                        <a class="button4" href="?csrid=YkMAw#cyberman">Buy Now</a>
+                    </li>
+                </ul>
+                <span class="nav-item social-icons">
+                <!--<span class="fa-stack">
+                        <a href="#your-link">
+                            <i class="fas fa-circle fa-stack-2x"></i>
+                            <i class="fab fa-facebook-f fa-stack-1x"></i>
+                        </a>
+                    </span>-->
+                    <span class="fa-stack">
+                        <a href="https://twitter.com/cyberman365/" target="_blank">
+                            <i class="fas fa-circle fa-stack-2x"></i>
+                            <i class="fab fa-twitter fa-stack-1x"></i>
+                        </a>
+                    </span>
+                </span>
+            </div> <!-- end of navbar-collapse -->
+        </div> <!-- end of container -->
+    </nav> <!-- end of navbar -->
+    <!-- end of navigation -->
+
+    <!-- Home -->
+    <section class="home py-5 d-flex align-items-center" id="header">
+        <div class="container text-light py-5"  data-aos="fade-right"> 
+            <h1 class="headline">Proactively <span class="home_text">protecting</span><br>your data, privacy and home.</h1>
+            <p class="para para-light py-3">Secure your home network devices with our ultimate protection. Stay safe online with our social media monitoring and dark web scanning. Don’t leave yourself vulnerable to cyber-crime. Now is the time to ensure you have personal cyber protection for you and your family.</p>
+            <div class="d-flex align-items-center">
+                <p class="p-2"><i class="fas fa-laptop-house fa-lg"></i></p>
+                <p>Most connected devices have vulnerabilities. Cyberman365 scans, alerts and improves these flaws.</p>  
+            </div>
+            <div class="d-flex align-items-center">
+                <p class="p-2"><i class="fas fa-wifi fa-lg"></i></p>
+                <p>Scan your connected devices and network to identify how you can improve your home security.</p>  
+            </div>
+            <div class="my-3">
+                <a class="button1" href="#plans">View Plan</a>
+				<a class="button3" href="#cyberman">Purchase Now</a>
+            </div>
+        </div> <!-- end of container -->
+    </section> <!-- end of home -->
+
+
+    <!-- Information -->
+    <section class="information">
+        <div class="container-fluid">  
+            <div class="row text-light">
+                <div class="col-lg-4 text-center p-5" data-aos="zoom-in">
+                    <i class="fas fa-tachometer-alt fa-3x p-2"></i>
+                    <h4 class="py-3">Email Breaches</h4>
+                    <p class="para-light">Email addresses can be scanned for any breaches and find out how to remain secure.<p>
+                </div>
+                <div class="col-lg-4 text-center p-5"  data-aos="zoom-in">
+                    <i class="fas fa-clock fa-3x p-2"></i>
+                    <h4 class="py-3">Cyber ATTACK protection</h4>
+                    <p class="para-light">Continuous monitoring of personal data, whether financial, medical or social, and home devices.</p>
+                </div>
+                <div class="col-lg-4 text-center p-5 text-dark"  data-aos="zoom-in"> 
+                    <i class="fas fa-headset fa-3x p-2"></i>
+                    <h4 class="py-3">24/7 Support </h4>
+                    <p class="para-light">24/7 support from the live chat and our expert human response team who are always on hand to deal with cyber attacks.</p>
+                </div>
+            </div>
+        </div> <!-- end of container -->
+    </section> <!-- end of information -->
+    
+
+    <!-- About -->
+    <section class="about d-flex align-items-center text-light py-5" id="about">
+        <div class="container" >
+            <div class="row d-flex align-items-center">
+                <div class="col-lg-7" data-aos="fade-right">
+                    <p>ABOUT US</p>
+                    <h1>What is <br>Cyberman365 - Homesafe</h1>
+                    <p class="py-2 para-light">HomeSafe is always watching over your network and devices for cyber vulnerabilities and will suggest improvements to strengthen your security posture. In the event of a cybersecurity incident, we will work to remediate the situation, restore your device or provide compensation to make you whole.</p>
+                    <p class="py-2 para-light">HomeSafe will scan your IoT devices and network to identify how you can make improvements to your home security. We will then provide step by step instructions for you to follow so you can implement preventative measures to further reduce your chances of a cyber incident.</p>
+
+                <!--<div class="my-3">
+                        <a class="btn" href="#your-link">Learn More</a>
+                    </div>-->
+                </div>
+                <div class="col-lg-5 text-center py-4 py-sm-0" data-aos="fade-down"> 
+                    <img class="img-fluid" src="./assets/images/about.jpg" alt="about" >
+                </div>
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </section> <!-- end of about -->
+		    <!-- Video -->
+    <section class="video d-flex align-items-center py-5" >
+        <div class="container text-light" >
+            	<div  align="center">
+	<iframe height="500" src="https://www.youtube.com/embed/QHK4NNWJp-o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+            
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </section> <!-- end of video -->
+
+    <!-- Services -->
+    <section class="services d-flex align-items-center py-5" id="services">
+        <div class="container text-light">
+            <div class="text-center pb-4" >
+                <p>OUR SERVICES</p> 
+                <h2 class="py-2">CYBERMAN365 is with you every step of the way</h2>
+                <p class="para-light">Now you can identify risks early and take action.</p>
+            </div>
+            <div class="row gy-4 py-2" data-aos="zoom-in">
+                <div class="col-lg-4">
+                    <div class="card bg-transparent">
+                        <i class="fas fa-home fa-2x"></i>
+                        <h4 class="py-2">MALWARE</h4>
+                        <p class="para-light">A malware infection can cause many problems that affect daily operation and the long-term security of your computer.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card bg-transparent">
+                        <i class="fas fa-wifi fa-2x"></i>
+                        <h4 class="py-2">SAFE NETWORK</h4>
+                        <p class="para-light">Scans your connected devices and network to identify how you can improve your home security on all connected devices.                    </p>
+                    </div>                    
+                </div>
+                <div class="col-lg-4">
+                    <div class="card bg-transparent">
+                        <i class="fas fa-phone fa-2x"></i>
+                        <h4 class="py-2">DATA BREACHES</h4>
+                        <p class="para-light">Criminals take advantage of these breaches to get hold of your leaked personal information from the dark web.     </p>
+                    </div>                    
+                </div>
+                <div class="col-lg-4">
+                    <div class="card bg-transparent">
+                        <i class="fas fa-mobile fa-2x"></i>
+                        <h4 class="py-2">COMPROMISED DEVICES</h4>
+                        <p class="para-light">Most users don’t even realise they have been hacked. Fast reactions stops hackers accessing more devices and data.</p>
+                    </div>                    
+                </div>
+                <div class="col-lg-4">
+                    <div class="card bg-transparent">
+                        <i class="fas fa-home fa-2x"></i>
+                        <h4 class="py-2">WEAK SECURITY</h4>
+                        <p class="para-light">Most connected devices have vulnerabilities. Cyberman365 scans, alerts and improves these flaws with a few simple tasks.                 </p>
+                    </div>                    
+                </div>
+                <div class="col-lg-4">
+                    <div class="card bg-transparent">
+                        <i class="fas fa-tv fa-2x"></i>
+                        <h4 class="py-2">STOLEN DATA</h4>
+                        <p class="para-light">By protecting your devices your personal data is safer, encrypted and less likely to be used fraudulently.                    </p>
+                    </div>                    
+                </div>
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </section> <!-- end of services -->
+
+
+    <!-- Plans -->
+    <section class="plans d-flex align-items-center py-5" id="plans">
+        <div class="container text-light" >
+            <div class="text-center pb-4">
+                <p>OUR FAMILY PLAN</p>
+                <h2 class="py-2">Cyberman365 homesafe</h2>
+            <!--<p class="para-light">Secure your home network and devices with our 'Internet of Things' protection.</p>-->
+            </div>
+            <div class="row gy-4" data-aos="zoom-in">
+                <div class="col-lg-4">
+                    <div class="card bg-transparent px-4">
+                        <h4 class="py-2">FAMILY BUNDLE</h4>
+                        <p class="py-3">Coverage for Two Adults and upto 10 Children</p>
+                        <div class="block d-flex align-items-center">
+                            <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
+                            <p>Vulnerability Assessment of All Connected Devices</p>
+                        </div>
+                        <div class="block d-flex align-items-center">
+                            <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
+                            <p>Your Home Wifi Network Cyber Attack Threat Assessment</p>
+                        </div>
+                        <div class="block d-flex align-items-center">
+                            <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
+                            <p>Instant and Ongoing Guidance To Help Secure Your Home</p>
+                        </div>
+                        <div class="block d-flex align-items-center">
+                            <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
+                            <p>Consistent Threat Discovery</p>
+                        </div>
+						<div class="block d-flex align-items-center">
+                            <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
+                            <p>Dedicated Alerts When Needed</p>
+                        </div>
+						<div class="block d-flex align-items-center">
+                            <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
+                            <p>Incident Response and Remediation</p>
+                        </div>
+						<div class="block d-flex align-items-center">
+                            <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
+                            <p>AI- 24/7 Chat Bot At Your Service</p>
+                        </div>
+						<div class="block d-flex align-items-center">
+                            <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
+                            <p>Built-In Cyber FAQ’s</p>
+                        </div>
+						<div class="block d-flex align-items-center">
+                            <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
+                            <p>Most Friendly Personal Cyberman APP</p>
+                        </div>
+                        <h4 class="py-3">$9.99/Month</h4>
+                        <div class="my-3">
+                            <a class="button1" href="#payment-form" >Purchase Plan</a>
+                        </div>
+                    </div>  
+                </div>
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </section> <!-- end of plans -->
+
+
+
+		
+   <div class="loader" id="loader">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <p>Loading...</p>
+    </div>
+    <div id="payment-wrapper" class="canada-payment" hidden>
+        <div class="container-payment" id="cyberman" hidden>
+            <div class="col-md-12 pt-3">
+
+                <div class="col-md-12 p-1">
+
+                    <form action="" method="post" id="payment-form">
+                        <div class="row pt-4">
+                            <div class="col-md-12">
+                                <h3>Payment Details</h3>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-label-group">
+
+                                            <input type="text" class="form-control" placeholder="First Name"
+                                                name="firstName" required>
+                                            <label for="firstName">First Name</label>
+                                            <div class="baseline"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-label-group">
+
+                                            <input type="text" class="form-control" placeholder="Last Name"
+                                                name="lastName" required>
+                                            <label for="lastName">Last Name</label>
+                                            <div class="baseline"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row stripe-embed">
+                                    <div class="col-lg-6 ">
+                                        <div class="form-label-group">
+                                            <div id="card-number" class="form-control empty cc">
+                                            </div>
+                                            <label for="card-number">Card Number</label>
+                                            <div class="baseline"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-6">
+                                        <div class="form-label-group">
+                                            <div id="card-expiration" class="form-control empty third-width cc"></div>
+                                            <label for="card-expiry">Expiration</label>
+                                            <div class="baseline"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-6">
+                                        <div class="form-label-group">
+                                            <div id="card-cvc" class="form-control empty third-width cc"
+                                                placeholder="94107"></div>
+                                            <label for="card-cvc">CVC</label>
+                                            <div class="baseline"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-label-group">
+
+                                    <input type="email" class="form-control" placeholder="Email Address" name="email"
+                                        required>
+                                    <label for="email">Email</label>
+                                    <div class="baseline"></div>
+                                </div>
+                                <h3>Billing Address</h3>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-label-group">
+                                            <input type="text" class="form-control" placeholder="Address 1"
+                                                name="address1" required>
+                                            <label for="address1">Address 1</label>
+                                            <div class="baseline"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-label-group">
+                                            <input type="text" class="form-control" placeholder="City" name="address2"
+                                                required>
+                                            <label for="address2">City</label>
+                                            <div class="baseline"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-label-group">
+                                            <select class="form-control" placeholder="State" name="state" required>
+                                                <option value="" selected="selected">Select a
+                                                    Province</option>
+                                                <option value="AB">Alberta</option>
+                                                <option value="BC">British Columbia</option>
+                                                <option value="MB">Manitoba</option>
+                                                <option value="NB">New Brunswick</option>
+                                                <option value="NL">Newfoundland and Labrador
+                                                </option>
+                                                <option value="NS">Nova Scotia</option>
+                                                <option value="ON">Ontario</option>
+                                                <option value="PE">Prince Edward Island</option>
+                                                <option value="QC">Quebec</option>
+                                                <option value="SK">Saskatchewan</option>
+                                                <option value="NT">Northwest Territories</option>
+                                                <option value="NU">Nunavut</option>
+                                                <option value="YT">Yukon</option>
+                                            </select>
+                                            <div class="baseline"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-label-group">
+                                            <input type="text" class="form-control" placeholder="Postal Code"
+                                                name="zipcode" required
+                                                pattern="[A-Za-z][0-9][A-Za-z] ?[0-9][A-Za-z][0-9]">
+                                            <label for="zipcode">Postal Code</label>
+                                            <div class="baseline"></div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-md-12">
+                                        <h3>Policy Details</h3>
+                                        <div class="form-label-group mb-1">
+                                            <input type="tel" class="form-control" placeholder="Cell phone" name="phone"
+                                                required pattern="^\+?\d{0,13}">
+                                            <label for="phone">Cell Phone</label>
+                                            <div class="baseline"></div>
+
+                                        </div>
+                                        <small>We need your mobile phone number to send
+                                            you an activation text message.</small>
+                                    </div>
+                                </div>
+                                <div class="form-group d-none">
+                                    <input type="text" class="form-control" placeholder="do not input" name="notAname">
+                                </div>
+                                <input type="hidden" name="brokerToken" id="brokerToken" value="">
+                                <input type="hidden" name="paymentMethod" value="">
+                                <input type="hidden" name="iot" value="1">
+                                <input type="hidden" name="country" value="CA">
+                                <input type="hidden" name="numberAdults" value="0">
+
+                                <input type="hidden" name="numberChildren" value="0">
+                                <input type="hidden" name="bundle" value="2">
+                                <input type="hidden" name="leadSource" value="Payment form">
+                                <input type="hidden" name="annual" value="false">
+                                <div id="response" class="alert-danger my-2 p-2" hidden></div>
+                                <div id="card-element-errors" class="alert-danger my-2 p-2" hidden role="alert">
+                                </div>
+                                <div class="d-grid gap-2">
+                                    <button type="submit" id="submit" class="btn2 btn-primary shadow " disabled>Purchase</button>
+                                </div>
+                                <div class="cc-icons">
+                                    <img src="https://www.cyberman365.com/agent/ca/img/cc-logos.png"
+                                        class="img-fluid" />
+                                </div>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+	<div class="container d-none" id="order-complete">
+
+                            <h1 class="thick-blue-line-bottom">Purchase Complete</h1>
+                            <p class="mt-3 lead">
+                                Thank you for purchasing coverage of Cyberman365, you will receive a text message
+                                and an email with
+                                your account
+                                activation instructions. </p>
+                            </p>If you have any questions please either contact your broker or <a href="mailto:someone@yoursite.com">Contact Us</a> </p>
+
+                            <p>You will be charged at a monthly
+                                rate of $9.99.</p>
+
+	</div>
+    <!-- javascript -->
+    <script src="https://js.stripe.com/v3/"></script>
+	<!--
+    <script src="https://www.cyberman365.com/agent/ca/cyberman365-embedded-payment-ca.min.js?1621000087"
+        type="text/javascript"></script> -->
+    <!-- For uat use -->       
+    <script src="https://www.cyberman365.com/agent/ca-uat/cyberman365-embedded-payment-ca.min.js?1621000087"
+        type="text/javascript"></script>
+		
+
+
+		<!--    <!-- Node
+    <section class="purchase d-flex align-items-center py-5" >
+        <div class="container text-light" id='purchase'>
+            	<div  align="center">
+	<iframe width="600" height="1600" src="https://www.cyberman365.com/agent/uat/agent-pay.html?agentid=PY8dY&bundle=individual&products=homeSafe" title="Purchase Page" frameborder="0" ></iframe>
+	</div>-->
+            
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </section> <!-- end of node -->
+    <!-- Work -->
+    <section class="work d-flex align-items-center py-5" >
+        <div class="container-fluid text-light">
+            <div class="row">
+                <div class="col-lg-6 d-flex align-items-center" data-aos="fade-right">
+                    <img class="img-fluid" src="./assets/images/Hacker-Using-Comp.jpg" alt="work">        
+                </div>
+                <div class="col-lg-5 d-flex align-items-center px-4 py-3" data-aos="">
+                    <div class="row">
+                        <div class="text-center text-lg-start py-4 pt-lg-0">
+                            <p>Cyber Crime in 2020</p>
+                            <h2 class="py-2">IC3 Complaint Stats</h2>
+                            <p class="para-light">Every year internet crimes keep rising, don't stay behind.</p>
+                        </div>
+                        <div class="container" data-aos="fade-up">
+                            <div class="row g-5">
+                                <div class="col-6 text-start" >
+                                    <i class="fas fa-briefcase fa-2x text-start"></i>
+                                    <h2 class="purecounter" data-purecounter-start="0" data-purecounter-end="43330" data-purecounter-duration="3">1</h2>
+                                    <p>Identity Theft Cases in 2020</p>
+                                </div>
+                                <div class="col-6" >
+                                    <i class="fas fa-award fa-2x"></i>
+                                    <h2 class="purecounter" data-purecounter-start="0" data-purecounter-end="45303" data-purecounter-duration="3">1</h2>
+                                    <p>Personal Data Breaches Cases in 2020</p>
+                                </div>
+                                <div class="col-6">
+                                    <i class="fas fa-users fa-2x"></i>
+                                    <h2 class="purecounter" data-purecounter-start="0" data-purecounter-end="76741" data-purecounter-duration="3">1</h2>
+                                    <p>Extortion Cases in 2020</p>
+                                </div>
+                                <div class="col-6">
+                                    <i class="fas fa-clock fa-2x"></i>
+                                    <h2 class="purecounter" data-purecounter-start="0" data-purecounter-end="241342" data-purecounter-duration="3">1</h2>
+                                    <p>Phishing cases in 2020</p>
+                                </div>
+                            </div>
+                        </div> <!-- end of container -->
+                    </div> <!-- end of row -->
+                </div> <!-- end of col-lg-5 -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </section> <!-- end of work -->
+
+
+    <!-- Testimonials -->
+    <div class="slider-1 testimonial text-light d-flex align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="text-center w-lg-75 m-auto pb-4">
+                    <p>TESTIMONIALS</p>
+                    <h2 class="py-2">Real Client Claims</h2>
+                    <p class="para-light">We help clients in real time and here are a few real life examples.</p>
+                </div>
+            </div> <!-- end of row -->
+            <div class="row p-2" data-aos="zoom-in">
+                <div class="col-lg-12">
+
+                    <!-- Card Slider -->
+                    <div class="slider-container">
+                        <div class="swiper-container card-slider">
+                            <div class="swiper-wrapper">
+                                
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <div class="testimonial-card p-4">
+                                        <p>My internet was slow and I was having trouble logging into my Amazon and Gmail accounts.   I contacted Support though the app and they called me back immediately.   They diagnosed my issues over the phone and everything is back to working normally now</p>
+                                    
+                                        <div class="d-flex pt-4">
+										<!--<div>
+                                                <img class="avatar" src="./assets/images/testimonial-1.jpg" alt="testimonial">
+                                            </div>-->
+											<div class="ms-3 pt-2">
+                                                <h6>K.E.</h6>
+                                                <p>USA</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> <!-- end of swiper-slide -->
+                                <!-- end of slide -->
+        
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <div class="testimonial-card p-4">
+                                        <p>After an argument with the neighbor, I had a suspicion that he would try to spy on me in some way. Installed the App and after my scan I realized he was connected to my Wi-Fi and gaining access to my cameras. Thanks to the support team they helped me terminate the connections.  </p>
+                                        <div class="d-flex pt-4">
+                                        <!--<div>
+                                                <img class="avatar" src="./assets/images/testimonial-2.jpg" alt="testimonial">
+                                            </div>-->
+                                            <div class="ms-3 pt-2">
+                                                <h6>T.C.</h6>
+                                                <p>Israel</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> <!-- end of swiper-slide -->
+                                <!-- end of slide -->
+        
+                                <!-- Slide
+                                <div class="swiper-slide">
+                                    <div class="testimonial-card p-4">
+                                        <p></p>
+                                        <div class="d-flex pt-4">
+                                        <div>
+                                                <img class="avatar" src="./assets/images/testimonial-3.jpg" alt="testimonial">
+                                            </div>
+                                            <div class="ms-3 pt-2">
+                                                <h6>Stella Virtuoso</h6>
+                                                <p>Design Chief - Upscale</p>
+                                            </div>
+                                        </div>
+                                    </div>      
+                                </div> end of swiper-slide
+                                 end of slide -->
+        
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <div class="testimonial-card p-4">
+                                        <p>Calendar spam notifications started to pop up in my iPhone every hour or so. Contacted support and together we fixed the issue in just a few minutes! Thanks!</p>
+                                        <div class="d-flex pt-4">
+                                        <!--<div>
+                                                <img class="avatar" src="./assets/images/testimonial-4.jpg" alt="testimonial">
+                                            </div>-->
+                                            <div class="ms-3 pt-2">
+                                                <p>S.R.</p>
+                                                <p>USA</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> <!-- end of swiper-slide -->
+                                <!-- end of slide -->
+
+                            </div> <!-- end of swiper-wrapper -->
+        
+                            <!-- Add Arrows -->
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <!-- end of add arrows -->
+        
+                        </div> <!-- end of swiper-container -->
+                    </div> <!-- end of slider-container -->
+                    <!-- end of card slider -->
+
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of testimonials -->
+
+
+    <!-- Newsletter -->
+<!--<section class="newsletter text-light py-5">
+        <div class="container">
+            <div class="row" >
+                <div class="col-lg-6 text-center text-lg-start" data-aos="fade-right">
+                    <h4 class="py-1">Subscribe to our Newsletter</h4>
+                    <p class="para-light"></p>
+                </div>
+                <div class="col-lg-6 d-flex align-items-center" data-aos="fade-down">
+                    <div class="input-group my-3">
+                        <input type="text" class="form-control p-2" placeholder="Enter your email address" aria-label="Recipient's email">
+                        <button class="btn-secondary text-light" type="button">Subscribe</button>
+                    </div>
+                </div>
+            </div> end of row
+        </div> end of container
+    </section> end of newsletter -->
+
+
+    <!-- Contact -->
+<!--<section class="contact d-flex align-items-center py-5" id="contact">
+        <div class="container-fluid text-light">
+            <div class="row">
+                <div class="col-lg-6 d-flex justify-content-center justify-content-lg-end align-items-center px-lg-5" data-aos="fade-right">
+                    <div style="width:90%">
+                        <div class="text-center text-lg-start py-4 pt-lg-0">
+                            <p>CONTACT</p>
+                            <h2 class="py-2">Send your query</h2>
+                            <p class="para-light"></p>
+                        </div>
+                        <div>
+                            <div class="row" >
+                                <div class="col-lg-6">
+                                    <div class="form-group py-2">
+                                        <input type="text" class="form-control form-control-input" id="exampleFormControlInput1" placeholder="Enter name">
+                                    </div>                                
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group py-2">
+                                        <input type="email" class="form-control form-control-input" id="exampleFormControlInput2" placeholder="Enter phone number">
+                                    </div>                                 
+                                </div>
+                            </div>
+                            <div class="form-group py-1">
+                                <input type="email" class="form-control form-control-input" id="exampleFormControlInput3" placeholder="Enter email">
+                            </div>  
+                            <div class="form-group py-2">
+                                <textarea class="form-control form-control-input" id="exampleFormControlTextarea1" rows="6" placeholder="Message"></textarea>
+                            </div>                            
+                        </div>
+                        <div class="my-3">
+                            <a class="btn form-control-submit-button" href="#your-link">Submit</a>
+                        </div>
+                    </div> 
+                </div> 
+                <div class="col-lg-6 d-flex align-items-center" data-aos="fade-down">
+                    <img class="img-fluid d-none d-lg-block" src="./assets/images/contact.jpg" alt="contact">        
+                </div> 
+            </div> 
+        </div> 
+    </section>-->
+
+
+    <!-- Location 
+    <section class="location text-light py-5">
+        <div class="container" data-aos="zoom-in">
+            <div class="row">
+                <div class="col-lg-3 d-flex align-items-center">
+                    <div class="p-2"><i class="far fa-map fa-3x"></i></div>
+                    <div class="ms-2">
+                        <h6>ADDRESS</h6>
+                        <p>Teuku Umar ST. 1919</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 d-flex align-items-center" >
+                    <div class="p-2"><i class="fas fa-mobile-alt fa-3x"></i></div>
+                    <div class="ms-2">
+                        <h6>CALL FOR QUERY</h6>
+                        <p>(800) 265  216 2020</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 d-flex align-items-center" >
+                    <div class="p-2"><i class="far fa-envelope fa-3x"></i></div>
+                    <div class="ms-2">
+                        <h6>SEND US MESSAGE</h6>
+                        <p>infodemofile@example.com</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 d-flex align-items-center" >
+                    <div class="p-2"><i class="far fa-clock fa-3x"></i></div>
+                    <div class="ms-2">
+                        <h6>OPENING HOURS</h6>
+                        <p>09:00 AM - 18:00 PM</p>
+                    </div>
+                </div>
+            </div> <!-- end of row 
+        </div> <!-- end of container 
+    </section> <!-- end of location -->
+
+
+    <!-- Footer 
+    <section class="footer text-light">
+        <div class="container">
+            <div class="row" data-aos="fade-right">
+                <div class="col-lg-3 py-4 py-md-5">
+                    <div class="d-flex align-items-center">
+                        <h4 class="">Cyberman365</h4>
+                    </div>
+                    <p class="py-3 para-light"></p>
+                    <div class="d-flex">
+                        <div class="me-3">
+                            <a href="#your-link">
+                                <i class="fab fa-facebook-f fa-2x py-2"></i>
                             </a>
                         </div>
-                        <!-- End Logo -->
-                    </div>
-
-                    <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse nav-collapse">
-                        <div class="menu-container">
-                            <ul class="nav navbar-nav navbar-nav-right">
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#body">Home</a></li>
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#about">About</a></li>
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#products">Products</a></li>
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#pricing">Pricing</a></li>
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#work">Work</a></li>
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#service">Service</a></li>
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#contact">Contact</a></li>
-                            </ul>
+                        <div class="me-3">
+                            <a href="#your-link">
+                                <i class="fab fa-twitter fa-2x py-2"></i>
+                            </a>
+                        </div>
+                        <div class="me-3">
+                            <a href="#your-link">
+                                <i class="fab fa-instagram fa-2x py-2"></i>
+                            </a>
                         </div>
                     </div>
-                    <!-- End Navbar Collapse -->
-                </div>
-            </nav>
-            <!-- Navbar -->
-        </header>
-        <!--========== END HEADER ==========-->
+                </div> <!-- end of col 
 
-        <!--========== SLIDER ==========-->
-        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-            <div class="container">
-                <!-- Indicators -->
-                <ol class="carousel-indicators">
-                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                </ol>
+                <div class="col-lg-3 py-4 py-md-5">
+                    <div>
+                        <h4 class="py-2">Quick Links</h4>
+                        <div class="d-flex align-items-center py-2">
+                            <i class="fas fa-caret-right"></i>
+                            <a href="#about"><p class="ms-3">About</p></a>
+                        </div>
+                        <div class="d-flex align-items-center py-2">
+                            <i class="fas fa-caret-right"></i>
+                            <a href="#"><p class="ms-3">Services</p></a>
+                        </div>
+                        <div class="d-flex align-items-center py-2">
+                            <i class="fas fa-caret-right"></i>
+                            <a href="#"><p class="ms-3">Plans</p></a>
+                        </div>
+                        <div class="d-flex align-items-center py-2">
+                            <i class="fas fa-caret-right"></i>
+                            <a href="#"><p class="ms-3">Contact</p></a>
+                        </div>
+                    </div>
+                </div> <!-- end of col 
+
+                <div class="col-lg-3 py-4 py-md-5">
+                    <div>
+                        <h4 class="py-2">Useful Links</h4>
+                        <div class="d-flex align-items-center py-2">
+                            <i class="fas fa-caret-right"></i>
+                            <a href="privacy.html"><p class="ms-3">Privacy</p></a>
+                            
+                        </div>
+                        <div class="d-flex align-items-center py-2">
+                            <i class="fas fa-caret-right"></i>
+                            <a href="terms.html"><p class="ms-3">Terms</p></a>
+                        </div>
+                        <div class="d-flex align-items-center py-2">
+                            <i class="fas fa-caret-right"></i>
+                            <a href="#your-link"><p class="ms-3">Disclaimer</p></a>
+                        </div>
+                        <div class="d-flex align-items-center py-2">
+                            <i class="fas fa-caret-right"></i>
+                            <a href="#your-link"><p class="ms-3">FAQ</p></a>
+                        </div>
+                    </div>
+                </div> <!-- end of col 
+
+                <div class="col-lg-3 py-4 py-md-5">
+                    <div class="d-flex align-items-center">
+                        <h4>Newsletter</h4>
+                    </div>
+                    <p class="py-3 para-light">\</p>
+                    <div class="d-flex align-items-center">
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control p-2" placeholder="Enter Email" aria-label="Recipient's email">
+                            <button class="btn-secondary text-light"><i class="fas fa-envelope fa-lg"></i></button>       
+                        </div>
+                    </div>
+                </div> <!-- end of col 
+            </div> <!-- end of row 
+        </div> <!-- end of container 
+    </section> <!-- end of footer 
+-->
+
+    <!-- Bottom -->
+    <div class="bottom py-2 text-light" >
+        <div class="container d-flex justify-content-between">
+            <div>
+                <p>Copyright © Cyberman365 2021</p><br>
             </div>
-
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner" role="listbox">
-                <div class="item active">
-                    <img class="img-responsive" src="img/1920x1080/01.jpg" alt="Slider Image">
-                    <div class="container">
-                        <div class="carousel-centered">
-                            <div class="margin-b-40">
-                                <h1 class="carousel-title">Hi-Tech Design</h1>
-                                <p class="color-white">Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua <br/> enim minim estudiat veniam siad venumus dolore</p>
-                            </div>
-                            <a href="#" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">Explore</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <img class="img-responsive" src="img/1920x1080/02.jpg" alt="Slider Image">
-                    <div class="container">
-                        <div class="carousel-centered">
-                            <div class="margin-b-40">
-                                <h2 class="carousel-title">Hi-Tech Design</h2>
-                                <p class="color-white">Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua <br/> enim minim estudiat veniam siad venumus dolore</p>
-                            </div>
-                            <a href="#" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">Explore</a>
-                        </div>
-                    </div>
-                </div>
+            <div>
+                <i class="fab fa-cc-visa fa-lg p-1"></i>
+                <i class="fab fa-cc-mastercard fa-lg p-1"></i>
+            <!--<i class="fab fa-cc-paypal fa-lg p-1"></i>
+                <i class="fab fa-cc-amazon-pay fa-lg p-1"></i>-->
             </div>
-        </div>
-        <!--========== SLIDER ==========-->
+        </div> <!-- end of container -->
+    </div> <!-- end of bottom -->
+ 
+    
+    <!-- Back To Top Button -->
+    <button onclick="topFunction()" id="myBtn">
+        <img src="assets/images/up-arrow.png" alt="alternative">
+    </button>
+    <!-- end of back to top button -->
 
-        <!--========== PAGE LAYOUT ==========-->
-        <!-- About -->
-        <div id="about">
-            <div class="content-lg container">
-                <!-- Masonry Grid -->
-                <div class="masonry-grid row">
-                    <div class="masonry-grid-sizer col-xs-6 col-sm-6 col-md-1"></div>
-                    <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 sm-margin-b-30">
-                        <div class="margin-b-60">
-                            <h2>Art Of Coding</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore magna ut consequat siad esqudiat dolor</p>
-                        </div>
-                        <img class="full-width img-responsive wow fadeInUp" src="img/500x500/01.jpg" alt="Portfolio Image" data-wow-duration=".3" data-wow-delay=".2s">
-                    </div>
-                    <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4">
-                        <div class="margin-b-60">
-                            <img class="full-width img-responsive wow fadeInUp" src="img/500x500/02.jpg" alt="Portfolio Image" data-wow-duration=".3" data-wow-delay=".3s">
-                        </div>
-                        <h2>Clean Design</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore magna ut consequat siad esqudiat dolor</p>
-                    </div>
-                    <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4">
-                        <div class="margin-t-60 margin-b-60">
-                            <h2>Amazing Support</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore magna ut consequat siad esqudiat dolor</p>
-                        </div>
-                        <img class="full-width img-responsive wow fadeInUp" src="img/500x500/03.jpg" alt="Portfolio Image" data-wow-duration=".3" data-wow-delay=".4s">
-                    </div>
-                </div>
-                <!-- End Masonry Grid -->
-            </div>
-            
-            <div class="bg-color-sky-light">
-                <div class="content-lg container">
-                    <div class="row">
-                        <div class="col-md-5 col-sm-5 md-margin-b-60">
-                            <div class="margin-t-50 margin-b-30">
-                                <h2>Why Choose Us?</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                            </div>
-                            <a href="#" class="btn-theme btn-theme-sm btn-white-bg text-uppercase">Explore</a>
-                        </div>
-                        <div class="col-md-5 col-sm-7 col-md-offset-2">
-                            <!-- Accordion -->
-                            <div class="accordion">
-                                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading" role="tab" id="headingOne">
-                                            <h4 class="panel-title">
-                                                <a class="panel-title-child" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                                    Exceptional Frontend Framework
-                                                </a>
-                                            </h4>
-                                        </div>
-                                        <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-                                            <div class="panel-body">
-                                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch.
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading" role="tab" id="headingTwo">
-                                            <h4 class="panel-title">
-                                                <a class="collapsed panel-title-child" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                                    Modern Design Trends
-                                                </a>
-                                            </h4>
-                                        </div>
-                                        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-                                            <div class="panel-body">
-                                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch.
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading" role="tab" id="headingThree">
-                                            <h4 class="panel-title">
-                                                <a class="collapsed panel-title-child" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                                    Beatifully Crafted Code
-                                                </a>
-                                            </h4>
-                                        </div>
-                                        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-                                            <div class="panel-body">
-                                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch.
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End Accodrion -->
-                        </div>
-                    </div>
-                    <!--// end row -->
-                </div>
-            </div>
-        </div>
-        <!-- End About -->
-
-        <!-- Latest Products -->
-        <div id="products">
-            <div class="content-lg container">
-                <div class="row margin-b-40">
-                    <div class="col-sm-6">
-                        <h2>Latest Products</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore magna aliqua enim minim veniam exercitation</p>
-                    </div>
-                </div>
-                <!--// end row -->
-
-                <div class="row">
-                    <!-- Latest Products -->
-                    <div class="col-sm-4 sm-margin-b-50">
-                        <div class="margin-b-20">
-                            <img class="img-responsive" src="img/970x647/01.jpg" alt="Latest Products Image">
-                        </div>
-                        <h4><a href="#">Workspace</a> <span class="text-uppercase margin-l-20">Management</span></h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
-                        <a class="link" href="#">Read More</a>
-                    </div>
-                    <!-- End Latest Products -->
-
-                    <!-- Latest Products -->
-                    <div class="col-sm-4 sm-margin-b-50">
-                        <div class="margin-b-20">
-                            <img class="img-responsive" src="img/970x647/02.jpg" alt="Latest Products Image">
-                        </div>
-                        <h4><a href="#">Minimalism</a> <span class="text-uppercase margin-l-20">Developmeny</span></h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
-                        <a class="link" href="#">Read More</a>
-                    </div>
-                    <!-- End Latest Products -->
-
-                    <!-- Latest Products -->
-                    <div class="col-sm-4 sm-margin-b-50">
-                        <div class="margin-b-20">
-                            <img class="img-responsive" src="img/970x647/03.jpg" alt="Latest Products Image">
-                        </div>
-                        <h4><a href="#">Cleant Style</a> <span class="text-uppercase margin-l-20">Design</span></h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
-                        <a class="link" href="#">Read More</a>
-                    </div>
-                    <!-- End Latest Products -->
-                </div>
-                <!--// end row -->
-            </div>
-        </div>
-        <!-- End Latest Products -->
-
-        <!-- Pricing -->
-        <div id="pricing">
-            <div class="bg-color-sky-light">
-                <div class="content-lg container">
-                    <div class="row row-space-1">
-                        <div class="col-sm-4 sm-margin-b-2">
-                            <!-- Pricing -->
-                            <div class="pricing">
-                                <div class="margin-b-30">
-                                    <i class="pricing-icon icon-chemistry"></i>
-                                    <h3>Starter Kit <span> - $</span> 49</h3>
-                                    <p>Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
-                                </div>
-                                <ul class="list-unstyled pricing-list margin-b-50">
-                                    <li class="pricing-list-item">Basic Features</li>
-                                    <li class="pricing-list-item">Up to 5 products</li>
-                                    <li class="pricing-list-item">50 Users Panels</li>
-                                </ul>
-                                <a href="pricing.html" class="btn-theme btn-theme-sm btn-default-bg text-uppercase">Choose</a>
-                            </div>
-                            <!-- End Pricing -->
-                        </div>
-                        <div class="col-sm-4 sm-margin-b-2">
-                            <!-- Pricing -->
-                            <div class="pricing pricing-active">
-                                <div class="margin-b-30">
-                                    <i class="pricing-icon icon-badge"></i>
-                                    <h3>Professional <span> - $</span> 149</h3>
-                                    <p>Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
-                                </div>
-                                <ul class="list-unstyled pricing-list margin-b-50">
-                                    <li class="pricing-list-item">Basic Features</li>
-                                    <li class="pricing-list-item">Up to 100 products</li>
-                                    <li class="pricing-list-item">100 Users Panels</li>
-                                </ul>
-                                <a href="pricing.html" class="btn-theme btn-theme-sm btn-default-bg text-uppercase">Choose</a>
-                            </div>
-                            <!-- End Pricing -->
-                        </div>
-                        <div class="col-sm-4">
-                            <!-- Pricing -->
-                            <div class="pricing">
-                                <div class="margin-b-30">
-                                    <i class="pricing-icon icon-shield"></i>
-                                    <h3>Advanced <span> - $</span> 249</h3>
-                                    <p>Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
-                                </div>
-                                <ul class="list-unstyled pricing-list margin-b-50">
-                                    <li class="pricing-list-item">Extended Features</li>
-                                    <li class="pricing-list-item">Unlimited products</li>
-                                    <li class="pricing-list-item">Unlimited Users Panels</li>
-                                </ul>
-                                <a href="pricing.html" class="btn-theme btn-theme-sm btn-default-bg text-uppercase">Choose</a>
-                            </div>
-                            <!-- End Pricing -->
-                        </div>
-                    </div>
-                    <!--// end row -->
-                </div>
-            </div>
-        </div>
-        <!-- End Pricing -->
-
-        <!-- Work -->
-        <div id="work">
-            <div class="section-seperator">
-                <div class="content-md container">
-                    <div class="row margin-b-40">
-                        <div class="col-sm-6">
-                            <h2>Work</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore magna aliqua enim minim veniam exercitation</p>
-                        </div>
-                    </div>
-                    <!--// end row -->
-
-                    <!-- Masonry Grid -->
-                    <div class="masonry-grid row">
-                        <div class="masonry-grid-sizer col-xs-6 col-sm-6 col-md-1"></div>
-                        <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-8 margin-b-30">
-                            <!-- Work -->
-                            <div class="work work-popup-trigger">
-                                <div class="work-overlay">
-                                    <img class="full-width img-responsive" src="img/800x400/01.jpg" alt="Portfolio Image">
-                                </div>
-                                <div class="work-popup-overlay">
-                                    <div class="work-popup-content">
-                                        <a href="javascript:void(0);" class="work-popup-close">Hide</a>
-                                        <div class="margin-b-30">
-                                            <h3 class="margin-b-5">Art Of Coding</h3>
-                                            <span>Clean &amp; Minimalistic Design</span>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
-                                                <div class="margin-t-10 sm-margin-t-0">
-                                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-                                                    <ul class="list-inline work-popup-tag">
-                                                        <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Design,</a></li>
-                                                        <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Coding,</a></li>
-                                                        <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Portfolio</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-4">
-                                                <div class="margin-t-10 sm-margin-t-0">
-                                                    <p class="margin-b-5"><strong>Project Leader:</strong> John Doe</p>
-                                                    <p class="margin-b-5"><strong>Designer:</strong> Alisa Keys</p>
-                                                    <p class="margin-b-5"><strong>Developer:</strong> Mark Doe</p>
-                                                    <p class="margin-b-5"><strong>Customer:</strong> Keenthemes</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End Work -->
-                        </div>
-                        <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 margin-b-30">
-                            <!-- Work -->
-                            <div class="work work-popup-trigger">
-                                <div class="work-overlay">
-                                    <img class="full-width img-responsive" src="img/397x415/01.jpg" alt="Portfolio Image">
-                                </div>
-                                <div class="work-popup-overlay">
-                                    <div class="work-popup-content">
-                                        <a href="javascript:void(0);" class="work-popup-close">Hide</a>
-                                        <div class="margin-b-30">
-                                            <h3 class="margin-b-5">Art Of Coding</h3>
-                                            <span>Clean &amp; Minimalistic Design</span>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
-                                                <div class="margin-t-10 sm-margin-t-0">
-                                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-                                                    <ul class="list-inline work-popup-tag">
-                                                        <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Design,</a></li>
-                                                        <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Coding,</a></li>
-                                                        <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Portfolio</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-4">
-                                                <div class="margin-t-10 sm-margin-t-0">
-                                                    <p class="margin-b-5"><strong>Project Leader:</strong> John Doe</p>
-                                                    <p class="margin-b-5"><strong>Designer:</strong> Alisa Keys</p>
-                                                    <p class="margin-b-5"><strong>Developer:</strong> Mark Doe</p>
-                                                    <p class="margin-b-5"><strong>Customer:</strong> Keenthemes</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End Work -->
-                        </div>
-                        <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 md-margin-b-30">
-                            <!-- Work -->
-                            <div class="work work-popup-trigger">
-                                <div class="work-overlay">
-                                    <img class="full-width img-responsive" src="img/397x300/01.jpg" alt="Portfolio Image">
-                                </div>
-                                <div class="work-popup-overlay">
-                                    <div class="work-popup-content">
-                                        <a href="javascript:void(0);" class="work-popup-close">Hide</a>
-                                        <div class="margin-b-30">
-                                            <h3 class="margin-b-5">Art Of Coding</h3>
-                                            <span>Clean &amp; Minimalistic Design</span>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
-                                                <div class="margin-t-10 sm-margin-t-0">
-                                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-                                                    <ul class="list-inline work-popup-tag">
-                                                        <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Design,</a></li>
-                                                        <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Coding,</a></li>
-                                                        <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Portfolio</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-4">
-                                                <div class="margin-t-10 sm-margin-t-0">
-                                                    <p class="margin-b-5"><strong>Project Leader:</strong> John Doe</p>
-                                                    <p class="margin-b-5"><strong>Designer:</strong> Alisa Keys</p>
-                                                    <p class="margin-b-5"><strong>Developer:</strong> Mark Doe</p>
-                                                    <p class="margin-b-5"><strong>Customer:</strong> Keenthemes</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End Work -->
-                        </div>
-                        <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 md-margin-b-30">
-                            <!-- Work -->
-                            <div class="work work-popup-trigger">
-                                <div class="work-overlay">
-                                    <img class="full-width img-responsive" src="img/397x300/02.jpg" alt="Portfolio Image">
-                                </div>
-                                <div class="work-popup-overlay">
-                                    <div class="work-popup-content">
-                                        <a href="javascript:void(0);" class="work-popup-close">Hide</a>
-                                        <div class="margin-b-30">
-                                            <h3 class="margin-b-5">Art Of Coding</h3>
-                                            <span>Clean &amp; Minimalistic Design</span>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
-                                                <div class="margin-t-10 sm-margin-t-0">
-                                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-                                                    <ul class="list-inline work-popup-tag">
-                                                        <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Design,</a></li>
-                                                        <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Coding,</a></li>
-                                                        <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Portfolio</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-4">
-                                                <div class="margin-t-10 sm-margin-t-0">
-                                                    <p class="margin-b-5"><strong>Project Leader:</strong> John Doe</p>
-                                                    <p class="margin-b-5"><strong>Designer:</strong> Alisa Keys</p>
-                                                    <p class="margin-b-5"><strong>Developer:</strong> Mark Doe</p>
-                                                    <p class="margin-b-5"><strong>Customer:</strong> Keenthemes</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End Work -->
-                        </div>
-                        <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4">
-                            <!-- Work -->
-                            <div class="work work-popup-trigger">
-                                <div class="work-overlay">
-                                    <img class="full-width img-responsive" src="img/397x300/03.jpg" alt="Portfolio Image">
-                                </div>
-                                <div class="work-popup-overlay">
-                                    <div class="work-popup-content">
-                                        <a href="javascript:void(0);" class="work-popup-close">Hide</a>
-                                        <div class="margin-b-30">
-                                            <h3 class="margin-b-5">Art Of Coding</h3>
-                                            <span>Clean &amp; Minimalistic Design</span>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
-                                                <div class="margin-t-10 sm-margin-t-0">
-                                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-                                                    <ul class="list-inline work-popup-tag">
-                                                        <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Design,</a></li>
-                                                        <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Coding,</a></li>
-                                                        <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Portfolio</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-4">
-                                                <div class="margin-t-10 sm-margin-t-0">
-                                                    <p class="margin-b-5"><strong>Project Leader:</strong> John Doe</p>
-                                                    <p class="margin-b-5"><strong>Designer:</strong> Alisa Keys</p>
-                                                    <p class="margin-b-5"><strong>Developer:</strong> Mark Doe</p>
-                                                    <p class="margin-b-5"><strong>Customer:</strong> Keenthemes</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End Work -->
-                        </div>
-                    </div>
-                    <!-- End Masonry Grid -->
-                </div>
-            </div>
-            
-            <!-- Clients -->
-            <div class="content-lg container">
-                <!-- Swiper Clients -->
-                <div class="swiper-slider swiper-clients">
-                    <!-- Swiper Wrapper -->
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <img class="swiper-clients-img" src="img/clients/01.png" alt="Clients Logo">
-                        </div>
-                        <div class="swiper-slide">
-                            <img class="swiper-clients-img" src="img/clients/02.png" alt="Clients Logo">
-                        </div>
-                        <div class="swiper-slide">
-                            <img class="swiper-clients-img" src="img/clients/03.png" alt="Clients Logo">
-                        </div>
-                        <div class="swiper-slide">
-                            <img class="swiper-clients-img" src="img/clients/04.png" alt="Clients Logo">
-                        </div>
-                        <div class="swiper-slide">
-                            <img class="swiper-clients-img" src="img/clients/05.png" alt="Clients Logo">
-                        </div>
-                        <div class="swiper-slide">
-                            <img class="swiper-clients-img" src="img/clients/06.png" alt="Clients Logo">
-                        </div>
-                    </div>
-                    <!-- End Swiper Wrapper -->
-                </div>
-                <!-- End Swiper Clients -->
-            </div>
-            <!-- End Clients -->
-        </div>
-        <!-- End Work -->
-
-        <!-- Service -->
-        <div id="service">
-            <div class="bg-color-sky-light" data-auto-height="true">
-                <div class="content-lg container">
-                    <div class="row margin-b-40">
-                        <div class="col-sm-6">
-                            <h2>Services</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore magna aliqua enim minim veniam exercitation</p>
-                        </div>
-                    </div>
-                    <!--// end row -->
-
-                    <div class="row row-space-1 margin-b-2">
-                        <div class="col-sm-4 sm-margin-b-2">
-                            <div class="service" data-height="height">
-                                <div class="service-element">
-                                    <i class="service-icon icon-chemistry"></i>
-                                </div>
-                                <div class="service-info">
-                                    <h3>Art Of Coding</h3>
-                                    <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
-                                </div>
-                                <a href="#" class="content-wrapper-link"></a>    
-                            </div>
-                        </div>
-                        <div class="col-sm-4 sm-margin-b-2">
-                            <div class="service bg-color-base" data-height="height">
-                                <div class="service-element">
-                                    <i class="service-icon color-white icon-screen-tablet"></i>
-                                </div>
-                                <div class="service-info">
-                                    <h3 class="color-white">Responsive Design</h3>
-                                    <p class="color-white margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
-                                </div>
-                                <a href="#" class="content-wrapper-link"></a>    
-                            </div>
-                        </div>
-                        <div class="col-sm-4">
-                            <div class="service" data-height="height">
-                                <div class="service-element">
-                                    <i class="service-icon icon-badge"></i>
-                                </div>
-                                <div class="service-info">
-                                    <h3>Feature Reach</h3>
-                                    <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
-                                </div>
-                                <a href="#" class="content-wrapper-link"></a>    
-                            </div>
-                        </div>
-                    </div>
-                    <!--// end row -->
-
-                    <div class="row row-space-1">
-                        <div class="col-sm-4 sm-margin-b-2">
-                            <div class="service" data-height="height">
-                                <div class="service-element">
-                                    <i class="service-icon icon-notebook"></i>
-                                </div>
-                                <div class="service-info">
-                                    <h3>Useful Documentation</h3>
-                                    <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
-                                </div>
-                                <a href="#" class="content-wrapper-link"></a>    
-                            </div>
-                        </div>
-                        <div class="col-sm-4 sm-margin-b-2">
-                            <div class="service" data-height="height">
-                                <div class="service-element">
-                                    <i class="service-icon icon-speedometer"></i>
-                                </div>
-                                <div class="service-info">
-                                    <h3>Fast Delivery</h3>
-                                    <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
-                                </div>
-                                <a href="#" class="content-wrapper-link"></a>    
-                            </div>
-                        </div>
-                        <div class="col-sm-4">
-                            <div class="service" data-height="height">
-                                <div class="service-element">
-                                    <i class="service-icon icon-badge"></i>
-                                </div>
-                                <div class="service-info">
-                                    <h3>Free Plugins</h3>
-                                    <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
-                                </div>
-                                <a href="#" class="content-wrapper-link"></a>    
-                            </div>
-                        </div>
-                    </div>
-                    <!--// end row -->
-                </div>
-            </div>
-        </div>
-        <!-- End Service -->
-            
-        <!-- Contact -->
-        <div id="contact">
-            <!-- Contact List -->
-            <div class="section-seperator">
-                <div class="content-lg container">
-                    <div class="row">
-                        <!-- Contact List -->
-                        <div class="col-sm-4 sm-margin-b-50">
-                            <h3><a href="#">New York</a> <span class="text-uppercase margin-l-20">Head Office</span></h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
-                            <ul class="list-unstyled contact-list">
-                                <li><i class="margin-r-10 color-base icon-call-out"></i> 1 012 3456 7890</li>
-                                <li><i class="margin-r-10 color-base icon-envelope"></i> hq@aitOnepage.com</li>
-                            </ul>
-                        </div>
-                        <!-- End Contact List -->
-
-                        <!-- Contact List -->
-                        <div class="col-sm-4 sm-margin-b-50">
-                            <h3><a href="#">London</a> <span class="text-uppercase margin-l-20">Operation</span></h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
-                            <ul class="list-unstyled contact-list">
-                                <li><i class="margin-r-10 color-base icon-call-out"></i> 44 77 3456 7890</li>
-                                <li><i class="margin-r-10 color-base icon-envelope"></i> operation@AitOnepage.com</li>
-                            </ul>
-                        </div>
-                        <!-- End Contact List -->
-
-                        <!-- Contact List -->
-                        <div class="col-sm-4 sm-margin-b-50">
-                            <h3><a href="#">Singapore</a> <span class="text-uppercase margin-l-20">Finance</span></h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
-                            <ul class="list-unstyled contact-list">
-                                <li><i class="margin-r-10 color-base icon-call-out"></i> 50 012 456 7890</li>
-                                <li><i class="margin-r-10 color-base icon-envelope"></i> finance@AitOnepage.com</li>
-                            </ul>
-                        </div>
-                        <!-- End Contact List -->
-                    </div>
-                    <!--// end row -->
-                </div>
-            </div>
-            <!-- End Contact List -->
-            
-            <!-- Google Map -->
-            <div id="map" class="map height-300"></div>
-        </div>
-        <!-- End Contact -->
-        <!--========== END PAGE LAYOUT ==========-->
-
-        <!--========== FOOTER ==========-->
-        <footer class="footer">
-            <!-- Links -->
-            <div class="section-seperator">
-                <div class="content-md container">
-                    <div class="row">
-                        <div class="col-sm-2 sm-margin-b-30">
-                            <!-- List -->
-                            <ul class="list-unstyled footer-list">
-                                <li class="footer-list-item"><a href="#">Home</a></li>
-                                <li class="footer-list-item"><a href="#">About</a></li>
-                                <li class="footer-list-item"><a href="#">Work</a></li>
-                                <li class="footer-list-item"><a href="#">Contact</a></li>
-                            </ul>
-                            <!-- End List -->
-                        </div>
-                        <div class="col-sm-2 sm-margin-b-30">
-                            <!-- List -->
-                            <ul class="list-unstyled footer-list">
-                                <li class="footer-list-item"><a href="#">Twitter</a></li>
-                                <li class="footer-list-item"><a href="#">Facebook</a></li>
-                                <li class="footer-list-item"><a href="#">Instagram</a></li>
-                                <li class="footer-list-item"><a href="#">YouTube</a></li>
-                            </ul>
-                            <!-- End List -->
-                        </div>
-                        <div class="col-sm-3">
-                            <!-- List -->
-                            <ul class="list-unstyled footer-list">
-                                <li class="footer-list-item"><a href="#">Subscribe to Our Newsletter</a></li>
-                                <li class="footer-list-item"><a href="#">Privacy Policy</a></li>
-                                <li class="footer-list-item"><a href="#">Terms &amp; Conditions</a></li>
-                            </ul>
-                            <!-- End List -->
-                        </div>
-                    </div>
-                    <!--// end row -->
-                </div>
-            </div>
-            <!-- End Links -->
-
-            <!-- Copyright -->
-            <div class="content container">
-                <div class="row">
-                    <div class="col-xs-6">
-                        <img class="footer-logo" src="img/logo-dark.png" alt="Aitonepage Logo">
-                    </div>
-                    <div class="col-xs-6 text-right">
-                        <p class="margin-b-0"><a class="fweight-700" href="http://keenthemes.com/preview/aitonepage/">Aitonepage</a> Theme Powered by: <a class="fweight-700" href="http://www.keenthemes.com/">KeenThemes.com</a></p>
-                    </div>
-                </div>
-                <!--// end row -->
-            </div>
-            <!-- End Copyright -->
-        </footer>
-        <!--========== END FOOTER ==========-->
-
-        <!-- Back To Top -->
-        <a href="javascript:void(0);" class="js-back-to-top back-to-top">Top</a>
-
-        <!-- JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
-        <!-- CORE PLUGINS -->
-        <script src="vendor/jquery.min.js" type="text/javascript"></script>
-        <script src="vendor/jquery-migrate.min.js" type="text/javascript"></script>
-        <script src="vendor/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
-
-        <!-- PAGE LEVEL PLUGINS -->
-        <script src="vendor/jquery.easing.js" type="text/javascript"></script>
-        <script src="vendor/jquery.back-to-top.js" type="text/javascript"></script>
-        <script src="vendor/jquery.smooth-scroll.js" type="text/javascript"></script>
-        <script src="vendor/jquery.wow.min.js" type="text/javascript"></script>
-        <script src="vendor/swiper/js/swiper.jquery.min.js" type="text/javascript"></script>
-        <script src="vendor/masonry/jquery.masonry.pkgd.min.js" type="text/javascript"></script>
-        <script src="vendor/masonry/imagesloaded.pkgd.min.js" type="text/javascript"></script>
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBsXUGTFS09pLVdsYEE9YrO2y4IAncAO2U"></script>
-
-        <!-- PAGE LEVEL SCRIPTS -->
-        <script src="js/layout.min.js" type="text/javascript"></script>
-        <script src="js/components/wow.min.js" type="text/javascript"></script>
-        <script src="js/components/swiper.min.js" type="text/javascript"></script>
-        <script src="js/components/masonry.min.js" type="text/javascript"></script>
-        <script src="js/components/google-map.min.js" type="text/javascript"></script>
-
-    </body>
-    <!-- END BODY -->
+    
+    <!-- Scripts -->
+    <script src="./js/bootstrap.min.js"></script><!-- Bootstrap framework -->
+    <script src="./js/purecounter.min.js"></script> <!-- Purecounter counter for statistics numbers -->
+    <script src="./js/swiper.min.js"></script><!-- Swiper for image and text sliders -->
+    <script src="./js/aos.js"></script><!-- AOS on Animation Scroll -->
+    <script src="./js/script.js"></script>  <!-- Custom scripts -->
+	<script type="text/javascript" id="cookieinfo"
+    src="js/cookieinfo.min.js"
+	data-bg="#645862"
+	data-fg="#FFFFFF"
+	data-link="#F1D600"
+	data-cookie="CookieInfoScript"
+	data-text-align="left"
+	data-moreinfo="https://hub.cyberman365.com/privacy.html"
+	data-position="bottom"
+    data-close-text="Accept">
+</script>
+</body>
 </html>
